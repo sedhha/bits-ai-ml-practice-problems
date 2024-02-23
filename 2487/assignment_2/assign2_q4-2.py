@@ -47,10 +47,10 @@ def GD(start,x,y,z, c, dc, iters, eta):
     
     for iter in range(iters):
         px = px - eta * dc(px)  # Update px using gradient descent
-        py = c(px)  # Update py based on new px
+        py = [c(px)]  # Update py based on new px
         grad_xs0.append(px[0][0])
         grad_xs1.append(px[1][0])
-        grad_ys.append([py])
+        grad_ys.append(py)
     print("Converged Point:",px,py)
     plot_grad_change(x,y,z, c, grad_xs0,grad_xs1, grad_ys)
 
