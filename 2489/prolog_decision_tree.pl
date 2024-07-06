@@ -1,3 +1,10 @@
+% Submission Details
+% List only the BITS (Name) of active contributors in this assignment:
+% 1. SHIVAM SAHIL - 2023AA05663
+% 2. GIRIJA SHANKAR SAHOO - 2023AA05235
+% 3. SOURAJEET SAHOO - 2023AA05029
+% 4. MANO RANJAN SAHU - 2023AA05738
+% 5. S SRIDHAR - 2023AB05096
 % Define the main entry point
 start :-
     prompt_lake_distance,

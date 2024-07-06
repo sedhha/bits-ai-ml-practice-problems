@@ -1,0 +1,781 @@
+Age,Gender,City,Phone_OS
+25,Male,New York,iOS
+25,Male,New York,Android
+25,Male,New York,Other
+25,Male,Los Angeles,iOS
+25,Male,Los Angeles,Android
+25,Male,Los Angeles,Other
+25,Male,Chicago,iOS
+25,Male,Chicago,Android
+25,Male,Chicago,Other
+25,Male,Houston,iOS
+25,Male,Houston,Android
+25,Male,Houston,Other
+25,Male,Phoenix,iOS
+25,Male,Phoenix,Android
+25,Male,Phoenix,Other
+25,Female,New York,iOS
+25,Female,New York,Android
+25,Female,New York,Other
+25,Female,Los Angeles,iOS
+25,Female,Los Angeles,Android
+25,Female,Los Angeles,Other
+25,Female,Chicago,iOS
+25,Female,Chicago,Android
+25,Female,Chicago,Other
+25,Female,Houston,iOS
+25,Female,Houston,Android
+25,Female,Houston,Other
+25,Female,Phoenix,iOS
+25,Female,Phoenix,Android
+25,Female,Phoenix,Other
+26,Male,New York,iOS
+26,Male,New York,Android
+26,Male,New York,Other
+26,Male,Los Angeles,iOS
+26,Male,Los Angeles,Android
+26,Male,Los Angeles,Other
+26,Male,Chicago,iOS
+26,Male,Chicago,Android
+26,Male,Chicago,Other
+26,Male,Houston,iOS
+26,Male,Houston,Android
+26,Male,Houston,Other
+26,Male,Phoenix,iOS
+26,Male,Phoenix,Android
+26,Male,Phoenix,Other
+26,Female,New York,iOS
+26,Female,New York,Android
+26,Female,New York,Other
+26,Female,Los Angeles,iOS
+26,Female,Los Angeles,Android
+26,Female,Los Angeles,Other
+26,Female,Chicago,iOS
+26,Female,Chicago,Android
+26,Female,Chicago,Other
+26,Female,Houston,iOS
+26,Female,Houston,Android
+26,Female,Houston,Other
+26,Female,Phoenix,iOS
+26,Female,Phoenix,Android
+26,Female,Phoenix,Other
+27,Male,New York,iOS
+27,Male,New York,Android
+27,Male,New York,Other
+27,Male,Los Angeles,iOS
+27,Male,Los Angeles,Android
+27,Male,Los Angeles,Other
+27,Male,Chicago,iOS
+27,Male,Chicago,Android
+27,Male,Chicago,Other
+27,Male,Houston,iOS
+27,Male,Houston,Android
+27,Male,Houston,Other
+27,Male,Phoenix,iOS
+27,Male,Phoenix,Android
+27,Male,Phoenix,Other
+27,Female,New York,iOS
+27,Female,New York,Android
+27,Female,New York,Other
+27,Female,Los Angeles,iOS
+27,Female,Los Angeles,Android
+27,Female,Los Angeles,Other
+27,Female,Chicago,iOS
+27,Female,Chicago,Android
+27,Female,Chicago,Other
+27,Female,Houston,iOS
+27,Female,Houston,Android
+27,Female,Houston,Other
+27,Female,Phoenix,iOS
+27,Female,Phoenix,Android
+27,Female,Phoenix,Other
+28,Male,New York,iOS
+28,Male,New York,Android
+28,Male,New York,Other
+28,Male,Los Angeles,iOS
+28,Male,Los Angeles,Android
+28,Male,Los Angeles,Other
+28,Male,Chicago,iOS
+28,Male,Chicago,Android
+28,Male,Chicago,Other
+28,Male,Houston,iOS
+28,Male,Houston,Android
+28,Male,Houston,Other
+28,Male,Phoenix,iOS
+28,Male,Phoenix,Android
+28,Male,Phoenix,Other
+28,Female,New York,iOS
+28,Female,New York,Android
+28,Female,New York,Other
+28,Female,Los Angeles,iOS
+28,Female,Los Angeles,Android
+28,Female,Los Angeles,Other
+28,Female,Chicago,iOS
+28,Female,Chicago,Android
+28,Female,Chicago,Other
+28,Female,Houston,iOS
+28,Female,Houston,Android
+28,Female,Houston,Other
+28,Female,Phoenix,iOS
+28,Female,Phoenix,Android
+28,Female,Phoenix,Other
+29,Male,New York,iOS
+29,Male,New York,Android
+29,Male,New York,Other
+29,Male,Los Angeles,iOS
+29,Male,Los Angeles,Android
+29,Male,Los Angeles,Other
+29,Male,Chicago,iOS
+29,Male,Chicago,Android
+29,Male,Chicago,Other
+29,Male,Houston,iOS
+29,Male,Houston,Android
+29,Male,Houston,Other
+29,Male,Phoenix,iOS
+29,Male,Phoenix,Android
+29,Male,Phoenix,Other
+29,Female,New York,iOS
+29,Female,New York,Android
+29,Female,New York,Other
+29,Female,Los Angeles,iOS
+29,Female,Los Angeles,Android
+29,Female,Los Angeles,Other
+29,Female,Chicago,iOS
+29,Female,Chicago,Android
+29,Female,Chicago,Other
+29,Female,Houston,iOS
+29,Female,Houston,Android
+29,Female,Houston,Other
+29,Female,Phoenix,iOS
+29,Female,Phoenix,Android
+29,Female,Phoenix,Other
+30,Male,New York,iOS
+30,Male,New York,Android
+30,Male,New York,Other
+30,Male,Los Angeles,iOS
+30,Male,Los Angeles,Android
+30,Male,Los Angeles,Other
+30,Male,Chicago,iOS
+30,Male,Chicago,Android
+30,Male,Chicago,Other
+30,Male,Houston,iOS
+30,Male,Houston,Android
+30,Male,Houston,Other
+30,Male,Phoenix,iOS
+30,Male,Phoenix,Android
+30,Male,Phoenix,Other
+30,Female,New York,iOS
+30,Female,New York,Android
+30,Female,New York,Other
+30,Female,Los Angeles,iOS
+30,Female,Los Angeles,Android
+30,Female,Los Angeles,Other
+30,Female,Chicago,iOS
+30,Female,Chicago,Android
+30,Female,Chicago,Other
+30,Female,Houston,iOS
+30,Female,Houston,Android
+30,Female,Houston,Other
+30,Female,Phoenix,iOS
+30,Female,Phoenix,Android
+30,Female,Phoenix,Other
+31,Male,New York,iOS
+31,Male,New York,Android
+31,Male,New York,Other
+31,Male,Los Angeles,iOS
+31,Male,Los Angeles,Android
+31,Male,Los Angeles,Other
+31,Male,Chicago,iOS
+31,Male,Chicago,Android
+31,Male,Chicago,Other
+31,Male,Houston,iOS
+31,Male,Houston,Android
+31,Male,Houston,Other
+31,Male,Phoenix,iOS
+31,Male,Phoenix,Android
+31,Male,Phoenix,Other
+31,Female,New York,iOS
+31,Female,New York,Android
+31,Female,New York,Other
+31,Female,Los Angeles,iOS
+31,Female,Los Angeles,Android
+31,Female,Los Angeles,Other
+31,Female,Chicago,iOS
+31,Female,Chicago,Android
+31,Female,Chicago,Other
+31,Female,Houston,iOS
+31,Female,Houston,Android
+31,Female,Houston,Other
+31,Female,Phoenix,iOS
+31,Female,Phoenix,Android
+31,Female,Phoenix,Other
+32,Male,New York,iOS
+32,Male,New York,Android
+32,Male,New York,Other
+32,Male,Los Angeles,iOS
+32,Male,Los Angeles,Android
+32,Male,Los Angeles,Other
+32,Male,Chicago,iOS
+32,Male,Chicago,Android
+32,Male,Chicago,Other
+32,Male,Houston,iOS
+32,Male,Houston,Android
+32,Male,Houston,Other
+32,Male,Phoenix,iOS
+32,Male,Phoenix,Android
+32,Male,Phoenix,Other
+32,Female,New York,iOS
+32,Female,New York,Android
+32,Female,New York,Other
+32,Female,Los Angeles,iOS
+32,Female,Los Angeles,Android
+32,Female,Los Angeles,Other
+32,Female,Chicago,iOS
+32,Female,Chicago,Android
+32,Female,Chicago,Other
+32,Female,Houston,iOS
+32,Female,Houston,Android
+32,Female,Houston,Other
+32,Female,Phoenix,iOS
+32,Female,Phoenix,Android
+32,Female,Phoenix,Other
+33,Male,New York,iOS
+33,Male,New York,Android
+33,Male,New York,Other
+33,Male,Los Angeles,iOS
+33,Male,Los Angeles,Android
+33,Male,Los Angeles,Other
+33,Male,Chicago,iOS
+33,Male,Chicago,Android
+33,Male,Chicago,Other
+33,Male,Houston,iOS
+33,Male,Houston,Android
+33,Male,Houston,Other
+33,Male,Phoenix,iOS
+33,Male,Phoenix,Android
+33,Male,Phoenix,Other
+33,Female,New York,iOS
+33,Female,New York,Android
+33,Female,New York,Other
+33,Female,Los Angeles,iOS
+33,Female,Los Angeles,Android
+33,Female,Los Angeles,Other
+33,Female,Chicago,iOS
+33,Female,Chicago,Android
+33,Female,Chicago,Other
+33,Female,Houston,iOS
+33,Female,Houston,Android
+33,Female,Houston,Other
+33,Female,Phoenix,iOS
+33,Female,Phoenix,Android
+33,Female,Phoenix,Other
+34,Male,New York,iOS
+34,Male,New York,Android
+34,Male,New York,Other
+34,Male,Los Angeles,iOS
+34,Male,Los Angeles,Android
+34,Male,Los Angeles,Other
+34,Male,Chicago,iOS
+34,Male,Chicago,Android
+34,Male,Chicago,Other
+34,Male,Houston,iOS
+34,Male,Houston,Android
+34,Male,Houston,Other
+34,Male,Phoenix,iOS
+34,Male,Phoenix,Android
+34,Male,Phoenix,Other
+34,Female,New York,iOS
+34,Female,New York,Android
+34,Female,New York,Other
+34,Female,Los Angeles,iOS
+34,Female,Los Angeles,Android
+34,Female,Los Angeles,Other
+34,Female,Chicago,iOS
+34,Female,Chicago,Android
+34,Female,Chicago,Other
+34,Female,Houston,iOS
+34,Female,Houston,Android
+34,Female,Houston,Other
+34,Female,Phoenix,iOS
+34,Female,Phoenix,Android
+34,Female,Phoenix,Other
+35,Male,New York,iOS
+35,Male,New York,Android
+35,Male,New York,Other
+35,Male,Los Angeles,iOS
+35,Male,Los Angeles,Android
+35,Male,Los Angeles,Other
+35,Male,Chicago,iOS
+35,Male,Chicago,Android
+35,Male,Chicago,Other
+35,Male,Houston,iOS
+35,Male,Houston,Android
+35,Male,Houston,Other
+35,Male,Phoenix,iOS
+35,Male,Phoenix,Android
+35,Male,Phoenix,Other
+35,Female,New York,iOS
+35,Female,New York,Android
+35,Female,New York,Other
+35,Female,Los Angeles,iOS
+35,Female,Los Angeles,Android
+35,Female,Los Angeles,Other
+35,Female,Chicago,iOS
+35,Female,Chicago,Android
+35,Female,Chicago,Other
+35,Female,Houston,iOS
+35,Female,Houston,Android
+35,Female,Houston,Other
+35,Female,Phoenix,iOS
+35,Female,Phoenix,Android
+35,Female,Phoenix,Other
+36,Male,New York,iOS
+36,Male,New York,Android
+36,Male,New York,Other
+36,Male,Los Angeles,iOS
+36,Male,Los Angeles,Android
+36,Male,Los Angeles,Other
+36,Male,Chicago,iOS
+36,Male,Chicago,Android
+36,Male,Chicago,Other
+36,Male,Houston,iOS
+36,Male,Houston,Android
+36,Male,Houston,Other
+36,Male,Phoenix,iOS
+36,Male,Phoenix,Android
+36,Male,Phoenix,Other
+36,Female,New York,iOS
+36,Female,New York,Android
+36,Female,New York,Other
+36,Female,Los Angeles,iOS
+36,Female,Los Angeles,Android
+36,Female,Los Angeles,Other
+36,Female,Chicago,iOS
+36,Female,Chicago,Android
+36,Female,Chicago,Other
+36,Female,Houston,iOS
+36,Female,Houston,Android
+36,Female,Houston,Other
+36,Female,Phoenix,iOS
+36,Female,Phoenix,Android
+36,Female,Phoenix,Other
+37,Male,New York,iOS
+37,Male,New York,Android
+37,Male,New York,Other
+37,Male,Los Angeles,iOS
+37,Male,Los Angeles,Android
+37,Male,Los Angeles,Other
+37,Male,Chicago,iOS
+37,Male,Chicago,Android
+37,Male,Chicago,Other
+37,Male,Houston,iOS
+37,Male,Houston,Android
+37,Male,Houston,Other
+37,Male,Phoenix,iOS
+37,Male,Phoenix,Android
+37,Male,Phoenix,Other
+37,Female,New York,iOS
+37,Female,New York,Android
+37,Female,New York,Other
+37,Female,Los Angeles,iOS
+37,Female,Los Angeles,Android
+37,Female,Los Angeles,Other
+37,Female,Chicago,iOS
+37,Female,Chicago,Android
+37,Female,Chicago,Other
+37,Female,Houston,iOS
+37,Female,Houston,Android
+37,Female,Houston,Other
+37,Female,Phoenix,iOS
+37,Female,Phoenix,Android
+37,Female,Phoenix,Other
+38,Male,New York,iOS
+38,Male,New York,Android
+38,Male,New York,Other
+38,Male,Los Angeles,iOS
+38,Male,Los Angeles,Android
+38,Male,Los Angeles,Other
+38,Male,Chicago,iOS
+38,Male,Chicago,Android
+38,Male,Chicago,Other
+38,Male,Houston,iOS
+38,Male,Houston,Android
+38,Male,Houston,Other
+38,Male,Phoenix,iOS
+38,Male,Phoenix,Android
+38,Male,Phoenix,Other
+38,Female,New York,iOS
+38,Female,New York,Android
+38,Female,New York,Other
+38,Female,Los Angeles,iOS
+38,Female,Los Angeles,Android
+38,Female,Los Angeles,Other
+38,Female,Chicago,iOS
+38,Female,Chicago,Android
+38,Female,Chicago,Other
+38,Female,Houston,iOS
+38,Female,Houston,Android
+38,Female,Houston,Other
+38,Female,Phoenix,iOS
+38,Female,Phoenix,Android
+38,Female,Phoenix,Other
+39,Male,New York,iOS
+39,Male,New York,Android
+39,Male,New York,Other
+39,Male,Los Angeles,iOS
+39,Male,Los Angeles,Android
+39,Male,Los Angeles,Other
+39,Male,Chicago,iOS
+39,Male,Chicago,Android
+39,Male,Chicago,Other
+39,Male,Houston,iOS
+39,Male,Houston,Android
+39,Male,Houston,Other
+39,Male,Phoenix,iOS
+39,Male,Phoenix,Android
+39,Male,Phoenix,Other
+39,Female,New York,iOS
+39,Female,New York,Android
+39,Female,New York,Other
+39,Female,Los Angeles,iOS
+39,Female,Los Angeles,Android
+39,Female,Los Angeles,Other
+39,Female,Chicago,iOS
+39,Female,Chicago,Android
+39,Female,Chicago,Other
+39,Female,Houston,iOS
+39,Female,Houston,Android
+39,Female,Houston,Other
+39,Female,Phoenix,iOS
+39,Female,Phoenix,Android
+39,Female,Phoenix,Other
+40,Male,New York,iOS
+40,Male,New York,Android
+40,Male,New York,Other
+40,Male,Los Angeles,iOS
+40,Male,Los Angeles,Android
+40,Male,Los Angeles,Other
+40,Male,Chicago,iOS
+40,Male,Chicago,Android
+40,Male,Chicago,Other
+40,Male,Houston,iOS
+40,Male,Houston,Android
+40,Male,Houston,Other
+40,Male,Phoenix,iOS
+40,Male,Phoenix,Android
+40,Male,Phoenix,Other
+40,Female,New York,iOS
+40,Female,New York,Android
+40,Female,New York,Other
+40,Female,Los Angeles,iOS
+40,Female,Los Angeles,Android
+40,Female,Los Angeles,Other
+40,Female,Chicago,iOS
+40,Female,Chicago,Android
+40,Female,Chicago,Other
+40,Female,Houston,iOS
+40,Female,Houston,Android
+40,Female,Houston,Other
+40,Female,Phoenix,iOS
+40,Female,Phoenix,Android
+40,Female,Phoenix,Other
+41,Male,New York,iOS
+41,Male,New York,Android
+41,Male,New York,Other
+41,Male,Los Angeles,iOS
+41,Male,Los Angeles,Android
+41,Male,Los Angeles,Other
+41,Male,Chicago,iOS
+41,Male,Chicago,Android
+41,Male,Chicago,Other
+41,Male,Houston,iOS
+41,Male,Houston,Android
+41,Male,Houston,Other
+41,Male,Phoenix,iOS
+41,Male,Phoenix,Android
+41,Male,Phoenix,Other
+41,Female,New York,iOS
+41,Female,New York,Android
+41,Female,New York,Other
+41,Female,Los Angeles,iOS
+41,Female,Los Angeles,Android
+41,Female,Los Angeles,Other
+41,Female,Chicago,iOS
+41,Female,Chicago,Android
+41,Female,Chicago,Other
+41,Female,Houston,iOS
+41,Female,Houston,Android
+41,Female,Houston,Other
+41,Female,Phoenix,iOS
+41,Female,Phoenix,Android
+41,Female,Phoenix,Other
+42,Male,New York,iOS
+42,Male,New York,Android
+42,Male,New York,Other
+42,Male,Los Angeles,iOS
+42,Male,Los Angeles,Android
+42,Male,Los Angeles,Other
+42,Male,Chicago,iOS
+42,Male,Chicago,Android
+42,Male,Chicago,Other
+42,Male,Houston,iOS
+42,Male,Houston,Android
+42,Male,Houston,Other
+42,Male,Phoenix,iOS
+42,Male,Phoenix,Android
+42,Male,Phoenix,Other
+42,Female,New York,iOS
+42,Female,New York,Android
+42,Female,New York,Other
+42,Female,Los Angeles,iOS
+42,Female,Los Angeles,Android
+42,Female,Los Angeles,Other
+42,Female,Chicago,iOS
+42,Female,Chicago,Android
+42,Female,Chicago,Other
+42,Female,Houston,iOS
+42,Female,Houston,Android
+42,Female,Houston,Other
+42,Female,Phoenix,iOS
+42,Female,Phoenix,Android
+42,Female,Phoenix,Other
+43,Male,New York,iOS
+43,Male,New York,Android
+43,Male,New York,Other
+43,Male,Los Angeles,iOS
+43,Male,Los Angeles,Android
+43,Male,Los Angeles,Other
+43,Male,Chicago,iOS
+43,Male,Chicago,Android
+43,Male,Chicago,Other
+43,Male,Houston,iOS
+43,Male,Houston,Android
+43,Male,Houston,Other
+43,Male,Phoenix,iOS
+43,Male,Phoenix,Android
+43,Male,Phoenix,Other
+43,Female,New York,iOS
+43,Female,New York,Android
+43,Female,New York,Other
+43,Female,Los Angeles,iOS
+43,Female,Los Angeles,Android
+43,Female,Los Angeles,Other
+43,Female,Chicago,iOS
+43,Female,Chicago,Android
+43,Female,Chicago,Other
+43,Female,Houston,iOS
+43,Female,Houston,Android
+43,Female,Houston,Other
+43,Female,Phoenix,iOS
+43,Female,Phoenix,Android
+43,Female,Phoenix,Other
+44,Male,New York,iOS
+44,Male,New York,Android
+44,Male,New York,Other
+44,Male,Los Angeles,iOS
+44,Male,Los Angeles,Android
+44,Male,Los Angeles,Other
+44,Male,Chicago,iOS
+44,Male,Chicago,Android
+44,Male,Chicago,Other
+44,Male,Houston,iOS
+44,Male,Houston,Android
+44,Male,Houston,Other
+44,Male,Phoenix,iOS
+44,Male,Phoenix,Android
+44,Male,Phoenix,Other
+44,Female,New York,iOS
+44,Female,New York,Android
+44,Female,New York,Other
+44,Female,Los Angeles,iOS
+44,Female,Los Angeles,Android
+44,Female,Los Angeles,Other
+44,Female,Chicago,iOS
+44,Female,Chicago,Android
+44,Female,Chicago,Other
+44,Female,Houston,iOS
+44,Female,Houston,Android
+44,Female,Houston,Other
+44,Female,Phoenix,iOS
+44,Female,Phoenix,Android
+44,Female,Phoenix,Other
+45,Male,New York,iOS
+45,Male,New York,Android
+45,Male,New York,Other
+45,Male,Los Angeles,iOS
+45,Male,Los Angeles,Android
+45,Male,Los Angeles,Other
+45,Male,Chicago,iOS
+45,Male,Chicago,Android
+45,Male,Chicago,Other
+45,Male,Houston,iOS
+45,Male,Houston,Android
+45,Male,Houston,Other
+45,Male,Phoenix,iOS
+45,Male,Phoenix,Android
+45,Male,Phoenix,Other
+45,Female,New York,iOS
+45,Female,New York,Android
+45,Female,New York,Other
+45,Female,Los Angeles,iOS
+45,Female,Los Angeles,Android
+45,Female,Los Angeles,Other
+45,Female,Chicago,iOS
+45,Female,Chicago,Android
+45,Female,Chicago,Other
+45,Female,Houston,iOS
+45,Female,Houston,Android
+45,Female,Houston,Other
+45,Female,Phoenix,iOS
+45,Female,Phoenix,Android
+45,Female,Phoenix,Other
+46,Male,New York,iOS
+46,Male,New York,Android
+46,Male,New York,Other
+46,Male,Los Angeles,iOS
+46,Male,Los Angeles,Android
+46,Male,Los Angeles,Other
+46,Male,Chicago,iOS
+46,Male,Chicago,Android
+46,Male,Chicago,Other
+46,Male,Houston,iOS
+46,Male,Houston,Android
+46,Male,Houston,Other
+46,Male,Phoenix,iOS
+46,Male,Phoenix,Android
+46,Male,Phoenix,Other
+46,Female,New York,iOS
+46,Female,New York,Android
+46,Female,New York,Other
+46,Female,Los Angeles,iOS
+46,Female,Los Angeles,Android
+46,Female,Los Angeles,Other
+46,Female,Chicago,iOS
+46,Female,Chicago,Android
+46,Female,Chicago,Other
+46,Female,Houston,iOS
+46,Female,Houston,Android
+46,Female,Houston,Other
+46,Female,Phoenix,iOS
+46,Female,Phoenix,Android
+46,Female,Phoenix,Other
+47,Male,New York,iOS
+47,Male,New York,Android
+47,Male,New York,Other
+47,Male,Los Angeles,iOS
+47,Male,Los Angeles,Android
+47,Male,Los Angeles,Other
+47,Male,Chicago,iOS
+47,Male,Chicago,Android
+47,Male,Chicago,Other
+47,Male,Houston,iOS
+47,Male,Houston,Android
+47,Male,Houston,Other
+47,Male,Phoenix,iOS
+47,Male,Phoenix,Android
+47,Male,Phoenix,Other
+47,Female,New York,iOS
+47,Female,New York,Android
+47,Female,New York,Other
+47,Female,Los Angeles,iOS
+47,Female,Los Angeles,Android
+47,Female,Los Angeles,Other
+47,Female,Chicago,iOS
+47,Female,Chicago,Android
+47,Female,Chicago,Other
+47,Female,Houston,iOS
+47,Female,Houston,Android
+47,Female,Houston,Other
+47,Female,Phoenix,iOS
+47,Female,Phoenix,Android
+47,Female,Phoenix,Other
+48,Male,New York,iOS
+48,Male,New York,Android
+48,Male,New York,Other
+48,Male,Los Angeles,iOS
+48,Male,Los Angeles,Android
+48,Male,Los Angeles,Other
+48,Male,Chicago,iOS
+48,Male,Chicago,Android
+48,Male,Chicago,Other
+48,Male,Houston,iOS
+48,Male,Houston,Android
+48,Male,Houston,Other
+48,Male,Phoenix,iOS
+48,Male,Phoenix,Android
+48,Male,Phoenix,Other
+48,Female,New York,iOS
+48,Female,New York,Android
+48,Female,New York,Other
+48,Female,Los Angeles,iOS
+48,Female,Los Angeles,Android
+48,Female,Los Angeles,Other
+48,Female,Chicago,iOS
+48,Female,Chicago,Android
+48,Female,Chicago,Other
+48,Female,Houston,iOS
+48,Female,Houston,Android
+48,Female,Houston,Other
+48,Female,Phoenix,iOS
+48,Female,Phoenix,Android
+48,Female,Phoenix,Other
+49,Male,New York,iOS
+49,Male,New York,Android
+49,Male,New York,Other
+49,Male,Los Angeles,iOS
+49,Male,Los Angeles,Android
+49,Male,Los Angeles,Other
+49,Male,Chicago,iOS
+49,Male,Chicago,Android
+49,Male,Chicago,Other
+49,Male,Houston,iOS
+49,Male,Houston,Android
+49,Male,Houston,Other
+49,Male,Phoenix,iOS
+49,Male,Phoenix,Android
+49,Male,Phoenix,Other
+49,Female,New York,iOS
+49,Female,New York,Android
+49,Female,New York,Other
+49,Female,Los Angeles,iOS
+49,Female,Los Angeles,Android
+49,Female,Los Angeles,Other
+49,Female,Chicago,iOS
+49,Female,Chicago,Android
+49,Female,Chicago,Other
+49,Female,Houston,iOS
+49,Female,Houston,Android
+49,Female,Houston,Other
+49,Female,Phoenix,iOS
+49,Female,Phoenix,Android
+49,Female,Phoenix,Other
+50,Male,New York,iOS
+50,Male,New York,Android
+50,Male,New York,Other
+50,Male,Los Angeles,iOS
+50,Male,Los Angeles,Android
+50,Male,Los Angeles,Other
+50,Male,Chicago,iOS
+50,Male,Chicago,Android
+50,Male,Chicago,Other
+50,Male,Houston,iOS
+50,Male,Houston,Android
+50,Male,Houston,Other
+50,Male,Phoenix,iOS
+50,Male,Phoenix,Android
+50,Male,Phoenix,Other
+50,Female,New York,iOS
+50,Female,New York,Android
+50,Female,New York,Other
+50,Female,Los Angeles,iOS
+50,Female,Los Angeles,Android
+50,Female,Los Angeles,Other
+50,Female,Chicago,iOS
+50,Female,Chicago,Android
+50,Female,Chicago,Other
+50,Female,Houston,iOS
+50,Female,Houston,Android
+50,Female,Houston,Other
+50,Female,Phoenix,iOS
+50,Female,Phoenix,Android
+50,Female,Phoenix,Other
