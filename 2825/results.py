@@ -1,5 +1,6 @@
 import numpy as np
-from typing import List, Tuple
+from typing import Tuple
+import matplotlib.pyplot as plt
 
 # Creating Dice Environment
 class DiceGameEnvironment:
@@ -56,16 +57,16 @@ def calculate_reward(action: int, next_state: int) -> int:
     if action == 0:  # Stop
         # Reward or penalize based on the closeness to the goal
         if next_state == 100:
-            return 100  # Big positive reward for winning the game
+            return 1  # Big positive reward for winning the game
         else:
             # Penalize based on how far from 100 the stop was made
-            return -abs(100 - next_state)  # e.g., -5 points if stopped at 95
+            return -abs(100 - next_state)/100  # e.g., -5 points if stopped at 95
 
     elif action == 1:  # Roll
         if next_state > 100:
-            return -100  # Large penalty for losing the game by exceeding 100
+            return -1  # Large penalty for losing the game by exceeding 100
         elif next_state == 100:
-            return 100  # Big positive reward for winning the game
+            return 1  # Big positive reward for winning the game
         else:
             # No intermediate rewards for rolling unless it directly results in winning or losing
             return 0
@@ -221,3 +222,34 @@ policy_vi_095, V_vi_095 = value_iteration(env, gamma=0.95)
 print("Value Iteration Results with Gamma 0.95:")
 print("Optimal Policy Iteration:", policy_vi_095)
 print("Optimal Value Iteration:", V_vi_095)
+# Prepare your data
+environments_data = {
+    "Standard (100, 6 sides)": (policy_pi, V_pi),
+    "8-sided Die (100, 8 sides)": (policy_vi_8, V_vi_8),
+    "Goal 50 (50, 6 sides)": (policy_vi_50, V_vi_50),
+    "Gamma 0.9 (100, 6 sides)": (policy_vi_09, V_vi_09),
+    "Gamma 0.95 (100, 6 sides)": (policy_vi_095, V_vi_095)
+}
+
+# Create a figure and a single axis
+fig, ax1 = plt.subplots(figsize=(12, 8))
+
+# Plot each policy and value function
+colors = ['b', 'g', 'r', 'c', 'm', 'y', 'k']  # Color for each pair
+for i, (label, (policy, value_function)) in enumerate(environments_data.items()):
+    color = colors[i % len(colors)]
+    # Policy plot
+    ax1.plot(policy, label=f'Policy - {label}', color=color, linestyle='--')
+    # Value function plot
+    ax1.plot(value_function, label=f'Value Function - {label}', color=color)
+
+# Setting labels and title
+ax1.set_xlabel('State')
+ax1.set_ylabel('Policy and Normalized Value Function')
+ax1.set_title('Comparison of Policy and Value Functions Across Different Configurations')
+
+# Adding a legend
+ax1.legend()
+
+# Show plot
+plt.show()
