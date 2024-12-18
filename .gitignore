@@ -13,3 +13,4 @@ resume/*
 2824/facial_expression_recognition/dataset/*
 **/kaggle.json
 2824/images/*
+**/private/*
