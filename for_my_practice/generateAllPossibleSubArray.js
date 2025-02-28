@@ -1,29 +1,82 @@
+// const generateSubArray = (arr, start = 0, memo = {}) => {
+//     if (start >= arr.length) return [];
+//     if (memo[start] !== undefined) return memo[start];
+
+//     let result = [];
+
+//     for (let end = start; end < arr.length; end++) {
+//         result.push(arr.slice(start, end + 1)); // Fix: Include `end` in slice
+//     }
+
+//     result = [...result, ...generateSubArray(arr, start + 1, memo)]; // Correct merging
+//     memo[start] = result;
+
+//     return result;
+// };
+
+
+// const generateSubsequences = (arr, start = 0, memo = {}) => {
+//     if (start >= arr.length) return [[]];
+//     if (start in memo) return memo[start];
+//     let result = [];
+
+//     let withoutStart = generateSubsequences(arr, start + 1, memo);
+
+//     let withStart = withoutStart.map(subseq => ([...subseq, arr[start]]));
+//     result = [...withStart, ...withoutStart];
+//     memo[start] = result;
+//     return result;
+// }
+
+// const generateSubArray = (arr, start = 0, memo = {}) => {
+//     if (start >= arr.length) return [];
+//     if (start in memo) return memo[start];
+//     let result = [];
+//     for (let end = start; end < arr.length; end++) {
+//         result.push(arr.slice(start, end + 1))
+//     }
+//     result = [...result, ...generateSubArray(arr, start + 1, memo)];
+//     memo[start] = result;
+//     return result;
+// }
+
+// const generateSubsequences = (arr, start = 0, memo = {}) => {
+//     if (start >= arr.length) return [[]];
+//     if (start in memo) return memo[start];
+
+//     let withoutStart = generateSubsequences(arr, start + 1, memo);
+//     let withStart = withoutStart.map(subsequence => [arr[start], ...subsequence]);
+//     let result = [...withoutStart, ...withStart];
+//     memo[start] = result;
+//     return result;
+// }
+
+
 const generateSubArray = (arr, start = 0, memo = {}) => {
     if (start >= arr.length) return [];
-    if (memo[start] !== undefined) return memo[start];
+    if (start in memo) return memo[start];
 
     let result = [];
-
     for (let end = start; end < arr.length; end++) {
-        result.push(arr.slice(start, end + 1)); // Fix: Include `end` in slice
+        const subArray = arr.slice(start, end + 1);
+        result.push(subArray);
     }
+    result = [...result, generateSubArray(arr, start + 1, memo)];
 
-    result = [...result, ...generateSubArray(arr, start + 1, memo)]; // Correct merging
     memo[start] = result;
-
     return result;
-};
-
+}
 
 const generateSubsequences = (arr, start = 0, memo = {}) => {
     if (start >= arr.length) return [[]];
     if (start in memo) return memo[start];
+
     let result = [];
+    const withoutStart = generateSubsequences(arr, start + 1, memo);
+    const withStart = withoutStart.map(subsequence => [arr[start], ...subsequence]);
 
-    let withoutStart = generateSubsequences(arr, start + 1, memo);
-
-    let withStart = withoutStart.map(subseq => ([...subseq, arr[start]]));
     result = [...withStart, ...withoutStart];
+
     memo[start] = result;
     return result;
 }

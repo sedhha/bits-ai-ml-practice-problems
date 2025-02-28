@@ -1,19 +1,38 @@
+// const maxProfitNTimes = (prices) => {
+//     let profit = 0;
+//     for (let i = 1; i < prices.length; i++) {
+//         if (prices[i] > prices[i - 1])
+//             profit += prices[i] - prices[i - 1];
+//     }
+//     return profit;
+// }
+
+// const maxProfitOnlyOnce = (prices) => {
+//     let minPrice = Infinity;
+//     let maxProfit = 0;
+//     for (let i = 0; i < prices.length; i++) {
+//         minPrice = Math.min(minPrice, prices[i]);
+//         maxProfit = Math.max(maxProfit, prices[i] - minPrice);
+
+//     }
+//     return maxProfit;
+// }
+
 const maxProfitNTimes = (prices) => {
     let profit = 0;
     for (let i = 1; i < prices.length; i++) {
-        if (prices[i] > prices[i - 1])
+        if (prices[i] - prices[i - 1] > 0)
             profit += prices[i] - prices[i - 1];
     }
     return profit;
 }
 
 const maxProfitOnlyOnce = (prices) => {
+    let maxProfit = -Infinity;
     let minPrice = Infinity;
-    let maxProfit = 0;
     for (let i = 0; i < prices.length; i++) {
         minPrice = Math.min(minPrice, prices[i]);
         maxProfit = Math.max(maxProfit, prices[i] - minPrice);
-
     }
     return maxProfit;
 }

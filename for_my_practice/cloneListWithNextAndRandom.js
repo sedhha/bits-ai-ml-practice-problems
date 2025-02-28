@@ -77,5 +77,69 @@ const cloneLinkedListV2 = (head) => {
     return dummyHead.next;
 }
 
-// 1 -> 2 -> 3
-// 
+const cloneListWithNextAndRandomV3 = (head) => {
+    let curr = head;
+    while (curr !== null) {
+        // Clone and create duplicates
+        // 1 -> 2 -> 3
+        let clone = new Node(curr.val); // 3
+        clone.next = curr.next; // 3 -> null
+        curr.next = clone; // 1 -> 1 -> 2 -> 3(*) -> 3 -> null
+        curr = curr.next.next; // 1 -> 1 -> 2 -> 3 -> 3 -> null(*)
+    }
+
+    curr = head;
+    while (curr !== null) {
+        // random pointers
+        if (curr.random) {
+            curr.next.random = curr.random.next;
+        }
+        curr = curr.next.next;
+    }
+
+    let clone = new Node(-1);
+    let dummyHead = clone;
+    curr = head; // 1 -> 1' -> 2 -> 2' -> 3 -> 3'
+    while (curr !== null) {
+        // -1
+        dummyHead.next = curr.next; // -1 -> 1' -> 2'(*) -> 3'
+        curr.next = (curr.next ? curr.next.next : null); // 1 -> 2 -> 3 -> null
+        curr = curr.next; // 1 -> 2 -> 3(*) -> 3'
+        dummyHead = dummyHead.next; // -1 -> 1' -> 2' -> 3'(*)
+    }
+    return clone.next;
+}
+
+
+const cloneListWithNextAndRandomV4 = (head) => {
+    // Step 1: Add duplicate pointers
+    let curr = head;
+    while (curr !== null) {
+        // 1 -> 2 -> 3
+        let clone = new Node(curr.val); // 3
+        clone.next = curr.next; // 3 -> null
+        curr.next = clone; // 1 -> 1' -> 2 -> 2' -> 3 -> 3 -> null*
+        curr = curr.next.next;
+    }
+
+    curr = head;
+    while (curr !== null) {
+        if (curr.random) {
+            curr.next.random = curr.random.next;
+        }
+        curr = curr.next.next;
+    }
+
+    let clone = new Node(-1);
+    dummyHead = clone;
+    curr = head;
+    while (curr !== null) {
+        // 1 -> 2 -> 2' -> 3 -> 3'
+        dummyHead.next = curr.next;
+        curr.next = (curr.next ? curr.next.next : null);
+        curr = curr.next;
+        dummyHead = dummyHead.next;
+    }
+    return clone.next;
+
+}
