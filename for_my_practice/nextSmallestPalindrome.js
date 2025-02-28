@@ -31,22 +31,55 @@
 //     return +nArray.join('');
 // }
 
+// const nextSmallestPalindrome = (n) => {
+//     if (n < 9) return n + 1;
+//     if (n <= 10) return 11;
+//     let nString = n.toString();
+//     let nArray = nString.split('');
+
+//     const mirror = () => {
+//         for (let i = 0; i < nArray.length; i++) {
+//             nArray[nArray.length - 1 - i] = nArray[i];
+//         }
+//     }
+//     mirror();
+//     let mirrored = +nArray.join('');
+//     if (mirrored > n) return mirrored;
+
+//     let mid = Math.floor((nArray.length - 1) / 2);
+
+//     while (mid >= 0 && nArray[mid] === '9') {
+//         nArray[mid--] = '0';
+//     }
+
+//     if (mid >= 0) {
+//         nArray[mid] = (+nArray[mid] + 1).toString();
+//         mirror();
+//     }
+//     else {
+//         nArray = ['1', ...Array(nArray.length - 1).fill(0), '1'];
+//     }
+//     return +nArray.join('');
+// }
+
 const nextSmallestPalindrome = (n) => {
     if (n < 9) return n + 1;
     if (n <= 10) return 11;
+
     let nString = n.toString();
     let nArray = nString.split('');
 
     const mirror = () => {
-        for (let i = 0; i < nArray.length; i++) {
+        for (let i = 0; i < Math.floor(nArray.length / 2); i++) {
             nArray[nArray.length - 1 - i] = nArray[i];
         }
     }
     mirror();
+
     let mirrored = +nArray.join('');
     if (mirrored > n) return mirrored;
 
-    let mid = Math.floor((nArray.length - 1) / 2);
+    let mid = Math.floor((nArray.length - 1) / 2); // 2 1 0 2
 
     while (mid >= 0 && nArray[mid] === '9') {
         nArray[mid--] = '0';
@@ -55,10 +88,10 @@ const nextSmallestPalindrome = (n) => {
     if (mid >= 0) {
         nArray[mid] = (+nArray[mid] + 1).toString();
         mirror();
+    } else {
+        nArray = ['1', ...Array(nArray.length - 1).fill('0'), '1'];
     }
-    else {
-        nArray = ['1', ...Array(nArray.length - 1).fill(0), '1'];
-    }
+
     return +nArray.join('');
 }
 
