@@ -16,3 +16,7 @@ resume/*
 **/private/*
 2907/dataset/*
 local_notes/*
+**/yolov*
+**/coco.names
+**/sample2.mp4
+**/VA_2023AA05663_A2_*.ipynb
