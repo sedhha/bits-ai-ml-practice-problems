@@ -22,3 +22,10 @@ local_notes/*
 **/VA_2023AA05663_A2_*.ipynb
 **/mot17/*
 2907/mot17/MOT17.zip
+**/__pycache__/*
+2903/assignment_03/tennis_player_dataset/*
+2903/assignment_02/sample.mp4
+2907/output/
+2907/fasterrcnn_checkpoint.pth
+2907/MOT17Det.zip
+2903/assignment_03/perf/*
