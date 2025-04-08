@@ -29,3 +29,11 @@ local_notes/*
 2907/fasterrcnn_checkpoint.pth
 2907/MOT17Det.zip
 2903/assignment_03/perf/*
+2909/assignment_2_doc.docx
+*.pt
+**/cifar-10-batches-py/*
+*.tar.gz
+2901/gan_assignment/sample_new/submissions_assignment2/task*.zip
+2903/assignment_03/output.zip
+2907/checkpoints/temp_db-20250309T044435Z-001.zip
+*.pth
